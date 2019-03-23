@@ -1,0 +1,209 @@
+fileFormatVersion: 2
+guid: b456e73e7f86cfa4a912df3169cf9cda
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Ctrl_Colonne
+    100002: Ctrl_Cou
+    100004: Ctrl_General
+    100006: Ctrl_PatteArriere_Droite
+    100008: Ctrl_PatteArriere_Gauche
+    100010: Ctrl_PatteAvant_Droite
+    100012: Ctrl_PatteAvant_Gauche
+    100014: Ctrl_Queue
+    100016: Grp_Ctrl
+    100018: Grp_Jnts
+    100020: IK_Bout_PatteArriere_Droite
+    100022: IK_Bout_PatteArriere_Gauche
+    100024: IK_Bout_PatteAvant_Droite
+    100026: IK_Bout_PatteAvant_Gauche
+    100028: IK_PatteArriere_Droite
+    100030: IK_PatteArriere_Gauche
+    100032: IK_PatteAvant_Droite
+    100034: IK_PatteAvant_Gauche
+    100036: Jnt_Bout_Patte_Droite
+    100038: Jnt_Bout_Patte_Gauche
+    100040: Jnt_Bout_Pied_Droite
+    100042: Jnt_Bout_Pied_Gauche
+    100044: Jnt_Coccyx
+    100046: Jnt_Colonne
+    100048: Jnt_Cou
+    100050: Jnt_Coude_Droite
+    100052: Jnt_Coude_Gauche
+    100054: Jnt_Epaule_Droite
+    100056: Jnt_Epaule_Gauche
+    100058: Jnt_Epaules
+    100060: Jnt_Genou_Droite
+    100062: Jnt_Genou_Gauche
+    100064: Jnt_Hanche_Droite
+    100066: Jnt_Hanche_Gauche
+    100068: Jnt_Patte_Droite
+    100070: Jnt_Patte_Gauche
+    100072: Jnt_Pied_Droite
+    100074: Jnt_Pied_Gauche
+    100076: Jnt_Queue1
+    100078: Jnt_Queue2
+    100080: Jnt_Tete
+    100082: Minou
+    100084: //RootNode
+    400000: Ctrl_Colonne
+    400002: Ctrl_Cou
+    400004: Ctrl_General
+    400006: Ctrl_PatteArriere_Droite
+    400008: Ctrl_PatteArriere_Gauche
+    400010: Ctrl_PatteAvant_Droite
+    400012: Ctrl_PatteAvant_Gauche
+    400014: Ctrl_Queue
+    400016: Grp_Ctrl
+    400018: Grp_Jnts
+    400020: IK_Bout_PatteArriere_Droite
+    400022: IK_Bout_PatteArriere_Gauche
+    400024: IK_Bout_PatteAvant_Droite
+    400026: IK_Bout_PatteAvant_Gauche
+    400028: IK_PatteArriere_Droite
+    400030: IK_PatteArriere_Gauche
+    400032: IK_PatteAvant_Droite
+    400034: IK_PatteAvant_Gauche
+    400036: Jnt_Bout_Patte_Droite
+    400038: Jnt_Bout_Patte_Gauche
+    400040: Jnt_Bout_Pied_Droite
+    400042: Jnt_Bout_Pied_Gauche
+    400044: Jnt_Coccyx
+    400046: Jnt_Colonne
+    400048: Jnt_Cou
+    400050: Jnt_Coude_Droite
+    400052: Jnt_Coude_Gauche
+    400054: Jnt_Epaule_Droite
+    400056: Jnt_Epaule_Gauche
+    400058: Jnt_Epaules
+    400060: Jnt_Genou_Droite
+    400062: Jnt_Genou_Gauche
+    400064: Jnt_Hanche_Droite
+    400066: Jnt_Hanche_Gauche
+    400068: Jnt_Patte_Droite
+    400070: Jnt_Patte_Gauche
+    400072: Jnt_Pied_Droite
+    400074: Jnt_Pied_Gauche
+    400076: Jnt_Queue1
+    400078: Jnt_Queue2
+    400080: Jnt_Tete
+    400082: Minou
+    400084: //RootNode
+    2100000: roux
+    2100002: blanc
+    2100004: noir
+    4300000: Minou
+    7400000: Salto
+    9500000: //RootNode
+    13700000: Minou
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Salto
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 111
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
