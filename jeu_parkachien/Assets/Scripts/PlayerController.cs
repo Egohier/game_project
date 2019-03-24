@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour {
 
-    static Animator anim;
+    Animator anim;
     public float movementSpeed = 1.0f;
     public float clockwise = 1000.0f;
     public float counterClockwise = -5.0f;
 
     float timerCaresse = 0.0f;
-    float timerTime = 1.0f;
+    const float timerTime = 1.0f;
 
     bool dogInRange = false;
     bool clickPat = false;
@@ -45,8 +45,8 @@ public class PlayerController : MonoBehaviour {
 
         if (dogInRange && clickPat && timerCaresse <= timerTime)
         {
-            timerCaresse += Time.deltaTime / timerTime;
-            Debug.Log("Regarde moi m'incrémenter ! : " + timerCaresse);
+           timerCaresse += Time.deltaTime / timerTime;
+           Debug.Log("Regarde moi m'incrémenter ! : " + timerCaresse);
         }
 
     }
@@ -72,13 +72,12 @@ public class PlayerController : MonoBehaviour {
         if (dogInRange && clickPat && timerCaresse > timerTime)
         {
             //todo : faire l'anim bien parce uqe j'y connais pas grand chose
-            // other.GetComponent<Proche_Reaction>().anim.SetBool("Proche", false);
-            //anim.SetBool("Caresse", true);
+            other.GetComponent<Proche_Reaction>().anim.SetBool("Proche", false);
+            anim.SetBool("Caresse", true);
             Debug.Log("J'ai attendu une second");
-            //other.GetComponent<Proche_Reaction>().anim.SetBool("Congratulations", false);
+            other.GetComponent<Proche_Reaction>().anim.SetBool("Congratulations", true);
             timerCaresse = 0.0f;
             clickPat = false;
-
         }
 
         //if (other.transform.tag == "Dog")

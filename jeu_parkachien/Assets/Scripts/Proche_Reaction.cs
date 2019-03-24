@@ -42,4 +42,5 @@ public class Proche_Reaction : MonoBehaviour {
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireSphere(transform.position, range);
     }
+
 }
