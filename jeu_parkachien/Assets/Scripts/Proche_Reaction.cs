@@ -10,8 +10,13 @@ public class Proche_Reaction : MonoBehaviour {
     public float range = 1.4f;
     GameObject genevieve;
 
-	// Use this for initialization
-	void Start ()
+    public bool isDying = false;
+    float timer = 0.0f;
+    const float timeAnimRolling = 5.0f;
+
+    float doggoScale = 0.5435f;
+    // Use this for initialization
+    void Start ()
     {
         genevieve = GameObject.FindGameObjectWithTag("Player");
         anim = GetComponent<Animator>();	
@@ -33,6 +38,16 @@ public class Proche_Reaction : MonoBehaviour {
         else
         {
             anim.SetBool("Proche", false);
+        }
+
+        if (isDying)
+        {
+            timer += Time.deltaTime / 1.0f;
+            this.transform.localScale = new Vector3(Mathf.Lerp(doggoScale, 0.0f, timer), Mathf.Lerp(doggoScale, 0.0f, timer), Mathf.Lerp(doggoScale, 0.0f, timer));
+
+            Destroy(gameObject, timeAnimRolling);
+
+
         }
 
     }
